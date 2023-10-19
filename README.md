@@ -27,7 +27,7 @@ git clone https://github.com/BuildBearLabs/Hardhat-BuildBear.git
 > 2️⃣ Install dependencies 
 
 ```bash
-cd Hardhat_x_BuildBear
+cd Hardhat-BuildBear
 npm install
 ```
 
