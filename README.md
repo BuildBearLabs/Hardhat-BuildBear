@@ -21,7 +21,7 @@
 > 1️⃣ Clone/fork Hardhat x Buildbear:
 
 ```bash
-git clone link
+git clone https://github.com/BuildBearLabs/Hardhat-BuildBear.git
 ```
 
 > 2️⃣ Install dependencies 
