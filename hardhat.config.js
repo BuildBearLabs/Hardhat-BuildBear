@@ -21,7 +21,7 @@ module.exports = {
   networks: {
     hardhat: {},
     buildbear: {
-      url: BBTestnet ? BBTestnet.rpcUrl : "",
+      url: BBTestnet ? BBTestnet.rpcUrl : "https://rpc.buildbear.io/superior-vision-0112df33",
     },
   },
   solidity: {
@@ -89,10 +89,10 @@ module.exports = {
     customChains: [
       {
         network: "buildbear",
-        chainId: BBTestnet ? BBTestnet.chainId : 0,
+        chainId: BBTestnet ? BBTestnet.chainId : 15218,
         urls: {
-          apiURL: BBTestnet ? BBTestnet.verificationUrl : "",
-          browserURL: BBTestnet ? BBTestnet.explorerUrl : "",
+          apiURL: BBTestnet ? BBTestnet.verificationUrl : "https://rpc.buildbear.io/verify/etherscan/superior-vision-0112df33",
+          browserURL: BBTestnet ? BBTestnet.explorerUrl : "https://explorer.buildbear.io/superior-vision-0112df33",
         },
       },
     ],
